@@ -1,0 +1,118 @@
+#navigation {font-size:0.75em; width:150px;font-family:Verdana;}
+	
+    #navigation ul {margin:0; padding:0;}
+	 
+    #navigation li {list-style: none;}
+	
+	ul.top-level {background:#85BABE;}
+	
+ ul.top-level li {
+ border-bottom: #fff solid;
+ border-top: #fff solid;
+ border-width: 1px;
+ }
+ 
+ #navigation a {
+ color: #fff;
+ cursor: pointer;
+ display:block;
+ height:25px;
+ line-height: 25px;
+ text-indent: 10px;                   
+ text-decoration:none;
+ width:100%;
+}
+
+#navigation a:hover{
+ text-decoration:underline;
+}
+
+#navigation li:hover {
+ background: #f90;
+ position: relative;
+}
+
+ul.sub-level {
+    display: none;
+}
+li:hover .sub-level {
+    background: #999;
+    border: #fff solid;
+    border-width: 1px;
+    display: block;
+    position: absolute;
+    left: 75px;
+    top: 5px;
+}
+
+ul.sub-level li {
+    border: none;
+    float:left;
+    width:250px;
+}
+
+/*Seconda Level*/
+#navigation .sub-level {
+    background: #85BABE;
+}
+
+/*Third Level*/
+#navigation .sub-level .sub-level {
+    background: #09C;
+}
+
+/*RESET STYLES*/
+li:hover .sub-level .sub-level {
+	display:none;
+}
+.sub-level li:hover .sub-level {
+	display:block;
+}
+  
+  
+      #h1 {
+        position:absolute;
+		top: 100px;
+		left: 1200px;
+      }
+	  
+	  #map {
+	  
+	  position:absolute;
+	  left:15%;
+	  
+	  
+	  }
+	  
+	  #log {
+	  position:absolute;
+	  top:93%;
+	  left:40%;
+	  font-weight:bold;
+	  text-align:center;
+	  font-family:Verdana;
+	  }
+	  
+	  #infoMapGral{
+	  
+	  font-family:Verdana;
+	  font-weight:bold;
+	  text-align:center;
+	  font-size:14px;
+	  
+	  }
+      
+      #infoMapMov {
+        
+      font-family:Verdana;
+	  font-weight:bold;
+	  text-align:center;
+	  font-size:14px;  
+        
+        
+        
+      }
+      
+      
+     
+      

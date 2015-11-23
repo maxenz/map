@@ -1,0 +1,146 @@
+@import 'nib'
+
+//  Eric Meyer's reset
+global-reset()
+reset-html5()
+
+// custom mixins
+
+
+@font-face {
+    font-family: 'HattoriHanzoLight';
+    src: url('Hattori_Hanzo-webfont.eot');
+    src: url('Hattori_Hanzo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Hattori_Hanzo-webfont.woff') format('woff'),
+         url('Hattori_Hanzo-webfont.ttf') format('truetype'),
+         url('Hattori_Hanzo-webfont.svg#HattoriHanzoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+Hattori_Hanzo()
+	font-family: HattoriHanzoLight
+
+html, body
+	height: 100%
+
+body
+	background: #C3E4F7;
+	background-image: linear-gradient(top, #DFF0FB 0%, #C3E4F7 100%)
+	font-family: sans-serif
+	height: 100%
+
+.container
+	width: 960px
+	margin: 0 auto
+	padding-top: 50px
+
+	h1
+		Hattori_Hanzo()
+		font-size: 30px
+		color: #666
+		margin-bottom: 1em
+
+	nav
+		border-radius: 4px
+		background-color: #fff
+		height: 37px
+
+		ul
+			li
+				position: relative
+				float: left
+
+				a
+					font-size: 12px
+					text-decoration: none
+					font-weight: bold
+					text-transform: uppercase
+					color: #545454
+					float: left
+					padding: 13px 15px
+					display: block
+					border-right: 1px solid #f9f9f9
+
+					&.ddIcon
+						background: transparent url("../../images/dd.png") no-repeat 86% 52%
+						padding: 13px 25px 13px 15px
+
+					&:hover
+						background-color: #cc333f
+						color: #fff
+
+				&.active
+					a
+						background-color: #cc333f
+						color: #fff
+
+				&:first-child
+					a
+						border-radius: 4px 0 0 4px
+
+				.subNav
+					position: absolute
+					background-color: #cc333f
+					padding: 15px 15px 20px
+					width: 172px
+					left: 0px; top 38px
+					display: none
+
+					.navSection
+						padding: 5px 0
+
+					h4
+						margin-bottom: 0.5em
+
+
+						a
+							font-size: 11px
+							color: #edc951
+							text-transform: capitalize
+							border-bottom: 1px solid #D33B47
+							padding: 7px 10px
+							
+							&:hover
+								color: #edc951
+
+							span
+								float: right
+								font-size: 10px
+								color: #fff
+								transition(color .5s ease)
+
+								&:hover
+									color: #390206
+
+					a
+						float: none
+						border: none
+						display: block
+						text-transform: capitalize
+						color: #fff
+						padding: 7px 15px
+						transition(color .5s ease)
+						line-height: 1.3
+
+						&:hover
+							color: #390206
+	.section
+		clear: both
+		padding: 10px
+
+		article
+			p
+				Hattori_Hanzo()
+				font-size: 16px
+				color: #488fb8
+				line-height: 1.3
+
+			header
+				p
+					padding-top: 20px
+					Hattori_Hanzo()
+					font-size: 20px
+					color: #333
+					line-height: 1.3
+					margin-bottom: .4em

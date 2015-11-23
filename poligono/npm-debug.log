@@ -1,0 +1,438 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   '-g',
+verbose cli   'canvas' ]
+info using npm@1.1.22
+info using node@v0.6.18
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\Draco\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose cache add [ 'canvas', null ]
+silly cache add: name, spec, args [ undefined, 'canvas', [ 'canvas', null ] ]
+verbose parsed url { pathname: 'canvas', path: 'canvas', href: 'canvas' }
+verbose addNamed [ 'canvas', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'canvas', '', false ]
+verbose raw, before any munging canvas
+verbose url resolving [ 'https://registry.npmjs.org/', './canvas' ]
+verbose url resolved https://registry.npmjs.org/canvas
+http GET https://registry.npmjs.org/canvas
+http 200 https://registry.npmjs.org/canvas
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"9K66YL089ZFJIBGFOCRQP5TPC"',
+silly get cb     date: 'Sun, 08 Jul 2012 10:01:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '87747' } ]
+silly name, range, hasData 2 [ 'canvas', '', true ]
+silly versions [ 'canvas',
+silly versions   [ '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.3',
+silly versions     '0.9.0',
+silly versions     '0.10.0',
+silly versions     '0.10.1',
+silly versions     '0.10.2',
+silly versions     '0.10.3',
+silly versions     '0.11.0',
+silly versions     '0.11.1',
+silly versions     '0.11.2',
+silly versions     '0.11.3',
+silly versions     '0.12.0',
+silly versions     '0.12.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7600',
+verbose bin dist   { shasum: 'fdc4f6550fa0d21acbaa0c5ec626f8069c640695',
+verbose bin dist     tarball: 'http://registry.npmjs.org/canvas/-/canvas-0.12.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/canvas/-/canvas-0.12.1.tgz',
+verbose addRemoteTarball   'fdc4f6550fa0d21acbaa0c5ec626f8069c640695' ]
+verbose fetch to C:\Users\Draco\AppData\Local\Temp\npm-1341741722375\1341741722375-0.5445395491551608\tmp.tgz
+http GET https://registry.npmjs.org/canvas/-/canvas-0.12.1.tgz
+http 200 https://registry.npmjs.org/canvas/-/canvas-0.12.1.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 25332
+info shasum fdc4f6550fa0d21acbaa0c5ec626f8069c640695
+info shasum C:\Users\Draco\AppData\Local\Temp\npm-1341741722375\1341741722375-0.5445395491551608\tmp.tgz
+verbose unpack C:\Users\Draco\AppData\Local\Temp\npm-1341741722375\1341741722375-0.5445395491551608\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry index.js
+silly extracting entry lib/bindings.js
+silly extracting entry lib/canvas.js
+silly extracting entry lib/context2d.js
+silly extracting entry lib/image.js
+silly extracting entry lib/jpegstream.js
+silly extracting entry lib/pixelarray.js
+silly extracting entry lib/pngstream.js
+silly extracting entry History.md
+silly extracting entry .gitmodules
+silly extracting entry install
+silly extracting entry .travis.yml
+silly extracting entry Makefile
+silly extracting entry out.pdf
+silly extracting entry binding.gyp
+silly extracting entry Readme.md
+silly extracting entry src/color.h
+silly extracting entry src/Canvas.cc
+silly extracting entry src/CanvasGradient.cc
+silly extracting entry src/CanvasGradient.h
+silly extracting entry src/CanvasPattern.cc
+silly extracting entry src/CanvasPattern.h
+silly extracting entry src/CanvasRenderingContext2d.cc
+silly extracting entry src/CanvasRenderingContext2d.h
+silly extracting entry src/closure.h
+silly extracting entry src/color.cc
+silly extracting entry src/Canvas.h
+silly extracting entry src/Image.cc
+silly extracting entry src/Image.h
+silly extracting entry src/ImageData.cc
+silly extracting entry src/ImageData.h
+silly extracting entry src/init.cc
+silly extracting entry src/JPEGStream.h
+silly extracting entry src/PixelArray.cc
+silly extracting entry src/PixelArray.h
+silly extracting entry src/Point.h
+silly extracting entry wscript
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: 'C:\\Users\\Draco\\AppData\\Local\\Temp\\npm-1341741722375\\1341741722375-0.5445395491551608\\package\\package.json',
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     contributors: false,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     wscript: true } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Draco\\AppData\\Local\\Temp\\npm-1341741722375\\1341741722375-0.5445395491551608\\package\\package.json',
+verbose has wscript     gypfile: true,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Draco\AppData\Local\Temp\npm-1341741722375\1341741722375-0.5445395491551608\package\package.json
+verbose loadDefaults canvas@0.12.1
+verbose from cache C:\Users\Draco\AppData\Local\Temp\npm-1341741722375\1341741722375-0.5445395491551608\package\package.json
+verbose tar.pack [ 'C:\\Users\\Draco\\AppData\\Roaming\\npm-cache\\canvas\\0.12.1\\package.tgz',
+verbose tar.pack   'C:\\Users\\Draco\\AppData\\Local\\Temp\\npm-1341741722375\\1341741722375-0.5445395491551608\\package' ]
+verbose tarball C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package.tgz
+verbose folder C:\Users\Draco\AppData\Local\Temp\npm-1341741722375\1341741722375-0.5445395491551608\package
+verbose unpack C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry lib/bindings.js
+silly modified mode [ 'lib/bindings.js', 438, 420 ]
+silly extracting entry lib/canvas.js
+silly modified mode [ 'lib/canvas.js', 438, 420 ]
+silly extracting entry lib/context2d.js
+silly modified mode [ 'lib/context2d.js', 438, 420 ]
+silly extracting entry lib/image.js
+silly modified mode [ 'lib/image.js', 438, 420 ]
+silly extracting entry lib/jpegstream.js
+silly modified mode [ 'lib/jpegstream.js', 438, 420 ]
+silly extracting entry lib/pixelarray.js
+silly modified mode [ 'lib/pixelarray.js', 438, 420 ]
+silly extracting entry lib/pngstream.js
+silly modified mode [ 'lib/pngstream.js', 438, 420 ]
+silly extracting entry History.md
+silly modified mode [ 'History.md', 438, 420 ]
+silly extracting entry .gitmodules
+silly modified mode [ '.gitmodules', 438, 420 ]
+silly extracting entry install
+silly modified mode [ 'install', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry out.pdf
+silly modified mode [ 'out.pdf', 438, 420 ]
+silly extracting entry binding.gyp
+silly modified mode [ 'binding.gyp', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry src/color.h
+silly modified mode [ 'src/color.h', 438, 420 ]
+silly extracting entry src/Canvas.cc
+silly modified mode [ 'src/Canvas.cc', 438, 420 ]
+silly extracting entry src/CanvasGradient.cc
+silly modified mode [ 'src/CanvasGradient.cc', 438, 420 ]
+silly extracting entry src/CanvasGradient.h
+silly modified mode [ 'src/CanvasGradient.h', 438, 420 ]
+silly extracting entry src/CanvasPattern.cc
+silly modified mode [ 'src/CanvasPattern.cc', 438, 420 ]
+silly extracting entry src/CanvasPattern.h
+silly modified mode [ 'src/CanvasPattern.h', 438, 420 ]
+silly extracting entry src/CanvasRenderingContext2d.cc
+silly modified mode [ 'src/CanvasRenderingContext2d.cc', 438, 420 ]
+silly extracting entry src/CanvasRenderingContext2d.h
+silly modified mode [ 'src/CanvasRenderingContext2d.h', 438, 420 ]
+silly extracting entry src/closure.h
+silly modified mode [ 'src/closure.h', 438, 420 ]
+silly extracting entry src/color.cc
+silly modified mode [ 'src/color.cc', 438, 420 ]
+silly extracting entry src/Canvas.h
+silly modified mode [ 'src/Canvas.h', 438, 420 ]
+silly extracting entry src/Image.cc
+silly modified mode [ 'src/Image.cc', 438, 420 ]
+silly extracting entry src/Image.h
+silly modified mode [ 'src/Image.h', 438, 420 ]
+silly extracting entry src/ImageData.cc
+silly modified mode [ 'src/ImageData.cc', 438, 420 ]
+silly extracting entry src/ImageData.h
+silly modified mode [ 'src/ImageData.h', 438, 420 ]
+silly extracting entry src/init.cc
+silly modified mode [ 'src/init.cc', 438, 420 ]
+silly extracting entry src/JPEGStream.h
+silly modified mode [ 'src/JPEGStream.h', 438, 420 ]
+silly extracting entry src/PixelArray.cc
+silly modified mode [ 'src/PixelArray.cc', 438, 420 ]
+silly extracting entry src/PixelArray.h
+silly modified mode [ 'src/PixelArray.h', 438, 420 ]
+silly extracting entry src/Point.h
+silly modified mode [ 'src/Point.h', 438, 420 ]
+silly extracting entry wscript
+silly modified mode [ 'wscript', 438, 420 ]
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: 'C:\\Users\\Draco\\AppData\\Roaming\\npm-cache\\canvas\\0.12.1\\package\\package.json',
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     contributors: false,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     wscript: true } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Draco\\AppData\\Roaming\\npm-cache\\canvas\\0.12.1\\package\\package.json',
+verbose has wscript     gypfile: true,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package\package.json
+verbose loadDefaults canvas@0.12.1
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 25156
+info shasum b27a84ece1abe8d919ddab1634e6f385364a3859
+info shasum C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package.tgz
+verbose from cache C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package\package.json
+verbose chmod C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package.tgz 644
+silly skipping chown for windows C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package.tgz
+silly resolved [ { name: 'canvas',
+silly resolved     description: 'Canvas graphics API backed by Cairo',
+silly resolved     version: '0.12.1',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+silly resolved     keywords: 
+silly resolved      [ 'canvas',
+silly resolved        'graphic',
+silly resolved        'graphics',
+silly resolved        'pixman',
+silly resolved        'cairo',
+silly resolved        'image',
+silly resolved        'images',
+silly resolved        'pdf' ],
+silly resolved     homepage: 'https://github.com/learnboost/node-canvas',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/learnboost/node-canvas.git' },
+silly resolved     scripts: { preinstall: 'node-waf configure build' },
+silly resolved     devDependencies: 
+silly resolved      { express: '>= 2.3.7 && < 3.0.0',
+silly resolved        jade: '0.11.0',
+silly resolved        mocha: '*',
+silly resolved        should: '*' },
+silly resolved     engines: { node: '>= 0.4.0 && < 0.9.0' },
+silly resolved     main: './lib/canvas.js',
+silly resolved     _id: 'canvas@0.12.1',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.22',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b27a84ece1abe8d919ddab1634e6f385364a3859' },
+silly resolved     _from: 'canvas' } ]
+info into C:\Users\Draco\AppData\Roaming\npm canvas@0.12.1
+info installOne canvas@0.12.1
+verbose from cache C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package\package.json
+info unbuild C:\Users\Draco\AppData\Roaming\npm\node_modules\canvas
+verbose unpack C:\Users\Draco\AppData\Roaming\npm-cache\canvas\0.12.1\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry lib/bindings.js
+silly modified mode [ 'lib/bindings.js', 438, 420 ]
+silly extracting entry lib/canvas.js
+silly modified mode [ 'lib/canvas.js', 438, 420 ]
+silly extracting entry lib/context2d.js
+silly modified mode [ 'lib/context2d.js', 438, 420 ]
+silly extracting entry lib/image.js
+silly modified mode [ 'lib/image.js', 438, 420 ]
+silly extracting entry lib/jpegstream.js
+silly modified mode [ 'lib/jpegstream.js', 438, 420 ]
+silly extracting entry lib/pixelarray.js
+silly modified mode [ 'lib/pixelarray.js', 438, 420 ]
+silly extracting entry lib/pngstream.js
+silly modified mode [ 'lib/pngstream.js', 438, 420 ]
+silly extracting entry History.md
+silly modified mode [ 'History.md', 438, 420 ]
+silly extracting entry .gitmodules
+silly modified mode [ '.gitmodules', 438, 420 ]
+silly extracting entry install
+silly modified mode [ 'install', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry out.pdf
+silly modified mode [ 'out.pdf', 438, 420 ]
+silly extracting entry binding.gyp
+silly modified mode [ 'binding.gyp', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry src/color.h
+silly modified mode [ 'src/color.h', 438, 420 ]
+silly extracting entry src/Canvas.cc
+silly modified mode [ 'src/Canvas.cc', 438, 420 ]
+silly extracting entry src/CanvasGradient.cc
+silly modified mode [ 'src/CanvasGradient.cc', 438, 420 ]
+silly extracting entry src/CanvasGradient.h
+silly modified mode [ 'src/CanvasGradient.h', 438, 420 ]
+silly extracting entry src/CanvasPattern.cc
+silly modified mode [ 'src/CanvasPattern.cc', 438, 420 ]
+silly extracting entry src/CanvasPattern.h
+silly modified mode [ 'src/CanvasPattern.h', 438, 420 ]
+silly extracting entry src/CanvasRenderingContext2d.cc
+silly modified mode [ 'src/CanvasRenderingContext2d.cc', 438, 420 ]
+silly extracting entry src/CanvasRenderingContext2d.h
+silly modified mode [ 'src/CanvasRenderingContext2d.h', 438, 420 ]
+silly extracting entry src/closure.h
+silly modified mode [ 'src/closure.h', 438, 420 ]
+silly extracting entry src/color.cc
+silly modified mode [ 'src/color.cc', 438, 420 ]
+silly extracting entry src/Canvas.h
+silly modified mode [ 'src/Canvas.h', 438, 420 ]
+silly extracting entry src/Image.cc
+silly modified mode [ 'src/Image.cc', 438, 420 ]
+silly extracting entry src/Image.h
+silly modified mode [ 'src/Image.h', 438, 420 ]
+silly extracting entry src/ImageData.cc
+silly modified mode [ 'src/ImageData.cc', 438, 420 ]
+silly extracting entry src/ImageData.h
+silly modified mode [ 'src/ImageData.h', 438, 420 ]
+silly extracting entry src/init.cc
+silly modified mode [ 'src/init.cc', 438, 420 ]
+silly extracting entry src/JPEGStream.h
+silly modified mode [ 'src/JPEGStream.h', 438, 420 ]
+silly extracting entry src/PixelArray.cc
+silly modified mode [ 'src/PixelArray.cc', 438, 420 ]
+silly extracting entry src/PixelArray.h
+silly modified mode [ 'src/PixelArray.h', 438, 420 ]
+silly extracting entry src/Point.h
+silly modified mode [ 'src/Point.h', 438, 420 ]
+silly extracting entry wscript
+silly modified mode [ 'wscript', 438, 420 ]
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: 'C:\\Users\\Draco\\AppData\\Roaming\\npm\\node_modules\\canvas\\package.json',
+verbose has bindings.gyp     contributors: false,
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     wscript: true } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Draco\\AppData\\Roaming\\npm\\node_modules\\canvas\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     gypfile: true,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Draco\AppData\Roaming\npm\node_modules\canvas\package.json
+verbose loadDefaults canvas@0.12.1
+info preinstall canvas@0.12.1
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "node-waf configure build"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'node-waf configure build' ],
+silly spawning   'C:\\Users\\Draco\\AppData\\Roaming\\npm\\node_modules\\canvas' ]
+info canvas@0.12.1 Failed to exec preinstall script
+info unbuild C:\Users\Draco\AppData\Roaming\npm\node_modules\canvas
+verbose from cache C:\Users\Draco\AppData\Roaming\npm\node_modules\canvas\package.json
+info preuninstall canvas@0.12.1
+info uninstall canvas@0.12.1
+verbose unbuild canvas@0.12.1 [ true,
+verbose unbuild canvas@0.12.1   'C:\\Users\\Draco\\AppData\\Roaming\\npm\\node_modules',
+verbose unbuild canvas@0.12.1   'C:\\Users\\Draco\\AppData\\Roaming\\npm\\node_modules' ]
+info postuninstall canvas@0.12.1
+ERR! canvas@0.12.1 preinstall: `node-waf configure build`
+ERR! `cmd "/c" "node-waf configure build"` failed with 1
+ERR! 
+ERR! Failed at the canvas@0.12.1 preinstall script.
+ERR! This is most likely a problem with the canvas package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-waf configure build
+ERR! You can get their info via:
+ERR!     npm owner ls canvas
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7600
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "canvas"
+ERR! cwd C:\ddproject\css\lib
+ERR! node -v v0.6.18
+ERR! npm -v 1.1.22
+ERR! code ELIFECYCLE
+ERR! message canvas@0.12.1 preinstall: `node-waf configure build`
+ERR! message `cmd "/c" "node-waf configure build"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]

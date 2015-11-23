@@ -1,0 +1,106 @@
+
+html {
+
+height: 100%;
+
+  
+}
+
+body {
+
+height:100%;
+margin:0px;
+padding:0px;
+
+}
+
+label {
+	
+display:block;
+margin-left:3px;
+color:black;
+font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+font-weight: bold;
+font-size: 12px;
+		
+}
+
+
+p {
+
+color:black;
+font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+font-weight: bold;
+font-size: 16px;
+
+}
+
+#map {
+	
+height: 100%;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0; 
+z-index: 0;
+		
+}
+
+.inputVisor {
+
+width:235px;
+
+}
+
+.datepicker,.typeahead,.popover{
+
+z-index:999999;
+
+}
+
+.nav-list > .active > a, .nav-list > .active > a:hover {
+
+background:#da4f49;
+
+}
+
+.nav-list >li >a {
+
+color:black;
+font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+font-size: 14px;
+
+}
+
+.nav-list > li > a:hover, .nav-list > li > a.active{
+
+background:#da4f49;
+color: white;
+text-shadow:0 0px 0;	
+
+}
+
+.nav-header {
+
+color:#da4f49;
+font-weight:bold;
+
+}
+
+.nav-list .divider {
+
+background-color:#da4f49;
+
+}
+
+.typeahead .active > a,
+.typeahead .active > a:hover {
+    color: white;
+
+    /* Change the typeahead background color here if you'd like */
+    background-color: #da4f49;
+
+    /* Turns off the default background gradients */
+    background-image: none;
+}

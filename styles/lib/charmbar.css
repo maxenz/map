@@ -1,0 +1,60 @@
+/*All basic settings for the charmbar.*/
+div.placeholder{
+    width:85px;
+    height:100%;
+    background:rgba(50,50,50,0.0);
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:20;
+    overflow:hidden;
+}
+div.charmbar{
+    width:85px;
+    height:100%;
+    background:rgba(18,18,18,1);
+    position:absolute;
+    top:0px;
+    right:-85px;
+}
+div.charmbar a{
+ position:absolute;
+ right:-85px;
+ width:85px;
+ height:85px;
+ color:rgba(0,0,0,0);
+}
+div.charmcontainer{
+  position:relative;
+}
+/*images used per option item in the charm bar, first to last.*/
+a.o1{
+ background:url('../../images/c_moviles.png');
+ background-position:center;
+ background-repeat: no-repeat;
+}
+a.o2{
+ background:url('../../images/c_incidentes.png');
+ background-position:center;
+ background-repeat: no-repeat;
+}
+a.o3{
+ background:url('../../images/c_bases.png');
+ background-position:center;
+ background-repeat: no-repeat;
+}
+a.o4{
+ background:url('../../images/c_herramientas.png');
+ background-position:center;
+ background-repeat: no-repeat;
+}
+a.o5{
+ background:url('../../images/c_perfil.png');
+ background-position:center;
+ background-repeat: no-repeat;
+}
+a.o6{
+ background:url('../../images/c_otros.png');
+ background-position:center;
+ background-repeat: no-repeat;
+}
